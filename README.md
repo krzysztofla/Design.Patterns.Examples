@@ -14,3 +14,8 @@ Open for extension but closed for modyfication. Instead of modification of exist
 
 ### Liskov Substytution Principle
 So what the list of substitution principle basically states that if you have some API that takes a base class and works correctly with that base class it should also work correctly with the derived class. Unfortunately in go we don't have base classes in derived classes. But let's focuse on what we can actualy implement in go!
+Liskov principal basically states that if you continue to use generalizations like interfaces for example then you should not have inheritance or you should not have implementers of those generalizations break some of the assumptions which are set up at the higher level so if you have interface A and you swith to interface B the behaviour should stay the same in Go. <br> 
+(It states that a superclass object should be replaceable with a subclass object without breaking the functionality of the software. It is a type of behavioral subtyping defined by semantic, rather than syntactic, design consideration.)
+
+### Interface Segregation Principle
+Easiest of the principles. Don't put everything in one interface - segregate responsibilities. 
