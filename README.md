@@ -19,3 +19,12 @@ Liskov principal basically states that if you continue to use generalizations li
 
 ### Interface Segregation Principle
 Easiest of the principles. Don't put everything in one interface - segregate responsibilities. 
+
+### Dependency Inversion Principle
+
+It's something different than Dependency Injection!!! They do have a relationship tho!
+- High lvl modules shouldn't depend on low level modules.
+- Both of them should depend on abstraction.
+
+---
+# 
