@@ -50,7 +50,7 @@ type SearchEngine struct {
 	search SearchEngineAbstraction
 }
 
-func main() {
+func mainDIP() {
 	se := SearchEngine{}
 	se.peopleInMemoryDb = *NewInMemoryRepository()
 	se.peopleInMemoryDb.SearchPeople("Ada")

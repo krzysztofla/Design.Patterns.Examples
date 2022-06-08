@@ -54,6 +54,6 @@ func ProducePhone(p Smartphone) *NewFashionPhone {
 	return &NewFashionPhone{}
 }
 
-func main() {
+func mainISP() {
 
 }

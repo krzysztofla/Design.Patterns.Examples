@@ -71,7 +71,7 @@ func (spec AndSpecification) IsSatisfied(p *Item) bool {
 		spec.second.IsSatisfied(p)
 }
 
-func main() {
+func mainOC() {
 	item1 := Item{"Item1", 11, red}
 	item2 := Item{"Item2", 22, yelow}
 	item3 := Item{"Item3", 33, yelow}

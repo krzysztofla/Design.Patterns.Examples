@@ -27,4 +27,8 @@ It's something different than Dependency Injection!!! They do have a relationshi
 - Both of them should depend on abstraction.
 
 ---
-# 
+# Builder 
+Builder pattern is great for building complicated objects. You simply building object piiece by piece adding neccecary functionality to it. 
+Builder pattern is optimal solution when objects can't be created with one simple constructor call, requires a lot of ceremony over creating or you have to use factory with multiple arguments to create object. Builder pattern will should provide elegant way for constructing object step by step. 
+- "When  piecewise object consturcion is complicated, provide an API for doing it succinctly" 
+https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-pattern

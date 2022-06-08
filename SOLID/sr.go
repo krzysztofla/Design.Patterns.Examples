@@ -35,6 +35,6 @@ func (*Persistence) SaveToFile(b Blog) {
 		[]byte(strings.Join(b.articles, " - ")), 0644)
 }
 
-func main() {
+func mainSR() {
 
 }
