@@ -32,3 +32,9 @@ Builder pattern is great for building complicated objects. You simply building o
 Builder pattern is optimal solution when objects can't be created with one simple constructor call, requires a lot of ceremony over creating or you have to use factory with multiple arguments to create object. Builder pattern will should provide elegant way for constructing object step by step. 
 - "When  piecewise object consturcion is complicated, provide an API for doing it succinctly" 
 https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-pattern
+
+# Factory
+
+Factory is a component responsible for wholesale creation of object (it's opposite to Builder since builder is constructing multiparameter object step by step).
+- You know you need factory when creation logic becomes too complex (like for example struct witch has a lot of lists and properties in it). 
+- In Go we use a lot of factories as constructors like in other programming languages. 
