@@ -37,4 +37,8 @@ https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-patter
 
 Factory is a component responsible for wholesale creation of object (it's opposite to Builder since builder is constructing multiparameter object step by step).
 - You know you need factory when creation logic becomes too complex (like for example struct witch has a lot of lists and properties in it). 
-- In Go we use a lot of factories as constructors like in other programming languages. 
+- In Go we use a lot of factories as constructors like in other programming languages.
+
+# Adapter
+
+Adapter is a structural design pattern, which allows incompatible objects to collaborate. The Adapter acts as a wrapper between two objects. It catches calls for one object and transforms them to format and interface recognizable by the second object.
